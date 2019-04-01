@@ -1,0 +1,30 @@
+fieldset.wst-metabox {
+    padding: 15px;
+}
+.wst-metabox label {
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 25%;
+}
+.wst-metabox > div{
+    margin-bottom: 15px;
+}
+.wst-metabox input, .wst-metabox select, 
+.wst-metabox textarea, #s2id_lifeline2_audio_type {
+    border-color: #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    width: 70%;
+}
+.wst-metabox input, .wst-metabox textarea{
+    padding: 6px 10px;
+}
+.wst-metabox textarea{
+    height: 100px;
+    resize: none;
+    vertical-align: middle;
+}
+.top {
+    margin-top: 20px;
+}

@@ -1,0 +1,2109 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Foodchow v1.0.0\n"
+"POT-Creation-Date: 2018-08-21 15:50+0500\n"
+"PO-Revision-Date: 2016-02-14 01:12+0500\n"
+"Last-Translator: Shahbaz Ahmed <support@webinane.com>\n"
+"Language-Team: Webinane <webinane@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ReduxCore/core/enqueue.php:452
+#: ReduxCore/inc/extensions/customizer/extension_customizer.php:663
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: ReduxCore/core/enqueue.php:460
+#: ReduxCore/inc/extensions/customizer/extension_customizer.php:664
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: ReduxCore/core/enqueue.php:468
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: ReduxCore/core/enqueue.php:476
+#: ReduxCore/inc/extensions/customizer/extension_customizer.php:665
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: ReduxCore/core/enqueue.php:483
+msgid "Please Wait"
+msgstr ""
+
+#: ReduxCore/core/enqueue.php:494
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: ReduxCore/core/enqueue.php:495
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: ReduxCore/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: ReduxCore/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: ReduxCore/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: ReduxCore/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: ReduxCore/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: ReduxCore/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: ReduxCore/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: ReduxCore/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: ReduxCore/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: ReduxCore/framework.php:216
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: ReduxCore/framework.php:216
+msgid "Redux Framework"
+msgstr ""
+
+#: ReduxCore/framework.php:220 ReduxCore/framework.php:224
+msgid "Options"
+msgstr ""
+
+#: ReduxCore/framework.php:1761
+msgid "Enable"
+msgstr ""
+
+#: ReduxCore/framework.php:1766
+msgid "Disable"
+msgstr ""
+
+#: ReduxCore/framework.php:1772
+msgid "moving the mouse over"
+msgstr ""
+
+#: ReduxCore/framework.php:1774
+msgid "clicking"
+msgstr ""
+
+#: ReduxCore/framework.php:1778
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: ReduxCore/framework.php:1783
+msgid "Hints"
+msgstr ""
+
+#: ReduxCore/framework.php:1910
+msgid "Default"
+msgstr ""
+
+#: ReduxCore/framework.php:2790
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: ReduxCore/framework.php:2799
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: ReduxCore/framework.php:2879
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: ReduxCore/framework.php:4001
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>admin_bar_links</code> "
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: ReduxCore/framework.php:4016
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>share_icons</code> argument.  "
+"This is sample data.  Please change or remove this data before shipping your "
+"product."
+msgstr ""
+
+#: ReduxCore/inc/class.redux_admin_notices.php:97
+msgid "Dismiss"
+msgstr ""
+
+#: ReduxCore/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#: ReduxCore/inc/class.redux_cdn.php:81
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: ReduxCore/inc/class.redux_cdn.php:81
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: ReduxCore/inc/class.redux_cdn.php:113
+#, php-format
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not "
+"installed or not activated and thus, some controls may not render properly.  "
+"Please ensure that it is installed and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: ReduxCore/inc/class.redux_filesystem.php:31
+#: ReduxCore/inc/class.redux_filesystem.php:60
+#: ReduxCore/inc/class.redux_filesystem.php:272
+msgid "File Permission Issues"
+msgstr ""
+
+#: ReduxCore/inc/class.redux_filesystem.php:31
+#, php-format
+msgid ""
+"We were unable to modify required files. Please check your permissions, or "
+"modify your wp-config.php file to contain your FTP login credentials as <a "
+"href=\"%s\" target=\"_blank\">outlined here</a>."
+msgstr ""
+
+#: ReduxCore/inc/class.redux_helpers.php:618
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: ReduxCore/inc/extensions/customizer/extension_customizer.php:698
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: ReduxCore/inc/extensions/customizer/extension_customizer.php:699
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: ReduxCore/inc/extensions/customizer/extension_customizer.php:700
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:89
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#: ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:114
+#: ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:142
+#, php-format
+msgid "You are customizing %s"
+msgstr ""
+
+#: ReduxCore/inc/extensions/customizer/inc/customizer_section.php:72
+msgid "Press return or enter to open"
+msgstr ""
+
+#: ReduxCore/inc/extensions/customizer/inc/customizer_section.php:79
+msgid "Back"
+msgstr ""
+
+#: ReduxCore/inc/extensions/fonts/field_fonts.php:45
+msgid "Upload Font File"
+msgstr ""
+
+#: ReduxCore/inc/extensions/fonts/field_fonts.php:48
+#: ReduxCore/inc/extensions/language/field_language.php:44
+msgid "Browse"
+msgstr ""
+
+#: ReduxCore/inc/extensions/fonts/field_fonts.php:51
+#: ReduxCore/inc/extensions/language/field_language.php:47
+msgid "Start Upload"
+msgstr ""
+
+#: ReduxCore/inc/extensions/fonts/field_fonts.php:68
+msgid "Select Font"
+msgstr ""
+
+#: ReduxCore/inc/extensions/fonts/field_fonts.php:69
+#: ReduxCore/inc/extensions/language/field_language.php:65
+msgid "Your browser does not support new File API! Please upgrade"
+msgstr ""
+
+#: ReduxCore/inc/extensions/fonts/field_fonts.php:70
+msgid "Please Select a 'otf', 'ttf', 'eot', 'woff' file"
+msgstr ""
+
+#: ReduxCore/inc/extensions/fonts/field_fonts.php:71
+#: ReduxCore/inc/extensions/language/field_language.php:67
+msgid "Unsupported file type"
+msgstr ""
+
+#: ReduxCore/inc/extensions/fonts/field_fonts.php:72
+#: ReduxCore/inc/extensions/language/field_language.php:68
+msgid "Too big file"
+msgstr ""
+
+#: ReduxCore/inc/extensions/fonts/field_fonts.php:73
+msgid "Please Select Font File"
+msgstr ""
+
+#: ReduxCore/inc/extensions/fonts/field_fonts.php:74
+#: ReduxCore/inc/extensions/language/field_language.php:70
+#: ReduxCore/inc/extensions/repeater/repeater/field_repeater.php:186
+#: ReduxCore/inc/extensions/repeater/repeater/field_repeater.php:229
+#: ReduxCore/inc/fields/slides/field_slides.php:167
+#: ReduxCore/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:91
+msgid "Import Options"
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:95
+msgid "Import from File"
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:98
+msgid "Import from URL"
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid "Import"
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:120
+msgid "Export Options"
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:132
+msgid "Copy Data"
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:133
+msgid "Download Data File"
+msgstr ""
+
+#: ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:134
+msgid "Copy Export URL"
+msgstr ""
+
+#: ReduxCore/inc/extensions/language/field_language.php:41
+msgid "Upload Language File"
+msgstr ""
+
+#: ReduxCore/inc/extensions/language/field_language.php:64
+msgid "Select Language"
+msgstr ""
+
+#: ReduxCore/inc/extensions/language/field_language.php:66
+msgid "Please Select a .mo file"
+msgstr ""
+
+#: ReduxCore/inc/extensions/language/field_language.php:69
+msgid "Please Select Language File"
+msgstr ""
+
+#: ReduxCore/inc/extensions/options_object/extension_options_object.php:82
+#: ReduxCore/inc/extensions/options_object/options_object/field_options_object.php:104
+msgid "Options Object"
+msgstr ""
+
+#: ReduxCore/inc/extensions/options_object/options_object/field_options_object.php:107
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: ReduxCore/inc/extensions/repeater/repeater/field_repeater.php:250
+msgid "Add"
+msgstr ""
+
+#: ReduxCore/inc/extensions/search/extension_search.php:90
+msgid "Search for option(s)"
+msgstr ""
+
+#: ReduxCore/inc/extensions/social_media/social_media.php:98
+msgid "Link URL"
+msgstr ""
+
+#: ReduxCore/inc/extensions/social_media/social_media.php:104 foodchow.php:348
+#: includes/Event.php:110 includes/Services.php:119 includes/Team.php:85
+msgid "Color"
+msgstr ""
+
+#: ReduxCore/inc/extensions/social_media/social_media.php:112
+msgid "Background"
+msgstr ""
+
+#: ReduxCore/inc/extensions/social_media/social_media.php:119
+msgid "Clear"
+msgstr ""
+
+#: ReduxCore/inc/fields/background/field_background.php:124
+#: ReduxCore/inc/fields/color/field_color.php:73
+#: ReduxCore/inc/fields/color_gradient/field_color_gradient.php:79
+#: ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: ReduxCore/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: ReduxCore/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: ReduxCore/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: ReduxCore/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: ReduxCore/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: ReduxCore/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: ReduxCore/inc/fields/background/field_background.php:277
+#: ReduxCore/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: ReduxCore/inc/fields/background/field_background.php:314
+#: ReduxCore/inc/fields/media/field_media.php:198
+#: ReduxCore/inc/fields/slides/field_slides.php:126
+#: ReduxCore/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: ReduxCore/inc/fields/background/field_background.php:321
+#: ReduxCore/inc/fields/media/field_media.php:205
+#: ReduxCore/inc/fields/multi_text/field_multi_text.php:72
+#: ReduxCore/inc/fields/multi_text/field_multi_text.php:79
+#: ReduxCore/inc/fields/multi_text/field_multi_text.php:89
+#: ReduxCore/inc/fields/slides/field_slides.php:133
+#: ReduxCore/inc/fields/slides/field_slides.php:190
+#: megamenu/edit_custom_walker.php:231
+msgid "Remove"
+msgstr ""
+
+#: ReduxCore/inc/fields/border/field_border.php:125
+#: ReduxCore/inc/fields/spacing/field_spacing.php:191
+msgid "All"
+msgstr ""
+
+#: ReduxCore/inc/fields/border/field_border.php:138
+#: ReduxCore/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: ReduxCore/inc/fields/border/field_border.php:145
+#: ReduxCore/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: ReduxCore/inc/fields/border/field_border.php:152
+#: ReduxCore/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: ReduxCore/inc/fields/border/field_border.php:159
+#: ReduxCore/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: ReduxCore/inc/fields/border/field_border.php:174
+msgid "Border style"
+msgstr ""
+
+#: ReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: ReduxCore/inc/fields/color_rgba/field_color_rgba.php:71
+msgid "Choose"
+msgstr ""
+
+#: ReduxCore/inc/fields/color_rgba/field_color_rgba.php:72
+#: megamenu/edit_custom_walker.php:232
+msgid "Cancel"
+msgstr ""
+
+#: ReduxCore/inc/fields/color_rgba/field_color_rgba.php:74
+msgid "Select Color"
+msgstr ""
+
+#: ReduxCore/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: ReduxCore/inc/fields/dimensions/field_dimensions.php:178
+#: ReduxCore/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: ReduxCore/inc/fields/dimensions/field_dimensions.php:189
+#: ReduxCore/inc/fields/dimensions/field_dimensions.php:190
+#: ReduxCore/inc/fields/spacing/field_spacing.php:245
+#: ReduxCore/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: ReduxCore/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ReduxCore/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: ReduxCore/inc/fields/link_color/field_link_color.php:90
+msgid "Regular"
+msgstr ""
+
+#: ReduxCore/inc/fields/link_color/field_link_color.php:94
+msgid "Hover"
+msgstr ""
+
+#: ReduxCore/inc/fields/link_color/field_link_color.php:98
+msgid "Visited"
+msgstr ""
+
+#: ReduxCore/inc/fields/link_color/field_link_color.php:102
+msgid "Active"
+msgstr ""
+
+#: ReduxCore/inc/fields/link_color/field_link_color.php:106
+msgid "Focus"
+msgstr ""
+
+#: ReduxCore/inc/fields/multi_text/field_multi_text.php:62
+msgid "Add More"
+msgstr ""
+
+#: ReduxCore/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: ReduxCore/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: ReduxCore/inc/fields/select/field_select.php:83
+#: ReduxCore/inc/fields/select_image/field_select_image.php:54
+msgid "Select an item"
+msgstr ""
+
+#: ReduxCore/inc/fields/select/field_select.php:134
+#: ReduxCore/inc/fields/select_image/field_select_image.php:134
+msgid "No items of this type were found."
+msgstr ""
+
+#: ReduxCore/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: ReduxCore/inc/fields/slides/field_slides.php:73
+#: ReduxCore/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ReduxCore/inc/fields/slides/field_slides.php:145
+#: ReduxCore/inc/fields/slides/field_slides.php:200 includes/Course.php:129
+msgid "Title"
+msgstr ""
+
+#: ReduxCore/inc/fields/slides/field_slides.php:149
+#: ReduxCore/inc/fields/slides/field_slides.php:204
+#: megamenu/edit_custom_walker.php:169
+#: visual-term-description-editor/php/class-editor.php:111
+#: visual-term-description-editor/php/class-editor.php:148
+msgid "Description"
+msgstr ""
+
+#: ReduxCore/inc/fields/slides/field_slides.php:153
+#: ReduxCore/inc/fields/slides/field_slides.php:207 includes/Event.php:108
+#: includes/Services.php:117 includes/Team.php:83
+#: megamenu/edit_custom_walker.php:132
+msgid "URL"
+msgstr ""
+
+#: ReduxCore/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: ReduxCore/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: ReduxCore/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:258
+#: ReduxCore/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:273
+#: ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:342
+#: ReduxCore/inc/fields/typography/field_typography.php:343
+#: ReduxCore/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:365
+#: ReduxCore/inc/fields/typography/field_typography.php:366
+#: ReduxCore/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:388
+#: ReduxCore/inc/fields/typography/field_typography.php:389
+#: ReduxCore/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:408
+#: ReduxCore/inc/fields/typography/field_typography.php:409
+#: ReduxCore/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:432
+#: ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:441
+#: ReduxCore/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:450
+#: ReduxCore/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:459
+#: ReduxCore/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:890
+msgid "Standard Fonts"
+msgstr ""
+
+#: ReduxCore/inc/fields/typography/field_typography.php:991
+msgid "Google Webfonts"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:129
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:130
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test to ensure "
+"compatibility."
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:135
+msgid "Allow tracking"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:140
+msgid "Do not allow tracking"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:151
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:152
+msgid "Getting Started"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:152
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:152
+msgid "our documentation"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:153
+msgid "Redux Generator"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:153
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:154
+msgid "Redux Extensions"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:154
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:154
+msgid "extensions directory"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:155
+msgid "Like Redux?"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:155
+#, php-format
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:155
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:155
+msgid "donation"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:156
+msgid "Newsletter"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:156
+msgid ""
+"If you like to keep up to with all things Redux, please subscribe to our "
+"newsletter"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:159 includes/Team.php:79
+msgid "Email Address"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:163
+msgid "Subscribe"
+msgstr ""
+
+#: ReduxCore/inc/tracking.php:175
+msgid "Close"
+msgstr ""
+
+#: ReduxCore/inc/validation/color/validation_color.php:15
+#: ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
+#: ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: ReduxCore/inc/validation/css/validation_css.php:39
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: ReduxCore/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: ReduxCore/inc/validation/email/validation_email.php:16
+#: ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: ReduxCore/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: ReduxCore/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: ReduxCore/inc/validation/numeric/validation_numeric.php:16
+#: ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: ReduxCore/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid "That URL slug is in use, please choose another. %s is open for use."
+msgstr ""
+
+#: ReduxCore/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: ReduxCore/templates/panel/footer.tpl.php:57
+msgid "Save Changes"
+msgstr ""
+
+#: ReduxCore/templates/panel/footer.tpl.php:61
+msgid "Reset Section"
+msgstr ""
+
+#: ReduxCore/templates/panel/footer.tpl.php:62
+msgid "Reset All"
+msgstr ""
+
+#: ReduxCore/templates/panel/footer.tpl.php:67
+msgid "Working..."
+msgstr ""
+
+#: ReduxCore/templates/panel/header.tpl.php:11
+#: ReduxCore/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: ReduxCore/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: ReduxCore/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: ReduxCore/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: ReduxCore/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: ReduxCore/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: ReduxCore/templates/panel/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: coaches_cat.php:21
+msgid "Send Message Button"
+msgstr ""
+
+#: coaches_cat.php:23
+msgid "Enable to show Send Message  button"
+msgstr ""
+
+#: coaches_cat.php:25
+msgid "Edit Profile Button"
+msgstr ""
+
+#: coaches_cat.php:27
+msgid "Enable to show Edit Profile  button"
+msgstr ""
+
+#: coaches_cat.php:29 coaches_cat.php:138
+msgid "Coach Profile Rating"
+msgstr ""
+
+#: coaches_cat.php:31
+msgid "Enable to show coach profile  rating"
+msgstr ""
+
+#: coaches_cat.php:33
+msgid "Select Tag"
+msgstr ""
+
+#: coaches_cat.php:43
+msgid "Select tags"
+msgstr ""
+
+#: coaches_cat.php:47 coaches_cat.php:58 coaches_cat.php:166
+#: includes/Course.php:197 includes/Event.php:121
+msgid "Select User"
+msgstr ""
+
+#: coaches_cat.php:60 coaches_cat.php:66 coaches_cat.php:186
+msgid "Coach Image"
+msgstr ""
+
+#: coaches_cat.php:69
+msgid "Upload coach image"
+msgstr ""
+
+#: coaches_cat.php:72
+msgid "Skill Titlle"
+msgstr ""
+
+#: coaches_cat.php:74
+msgid "Enter skills section title that you want to show"
+msgstr ""
+
+#: coaches_cat.php:81
+msgid "Remove Skill"
+msgstr ""
+
+#: coaches_cat.php:84 coaches_cat.php:232
+msgid "Add Skill"
+msgstr ""
+
+#: coaches_cat.php:124
+msgid "Send Message Button."
+msgstr ""
+
+#: coaches_cat.php:126
+msgid "Enable to show send message button."
+msgstr ""
+
+#: coaches_cat.php:131
+msgid "Edit Profile Button."
+msgstr ""
+
+#: coaches_cat.php:133
+msgid "Enable to show edit profile button."
+msgstr ""
+
+#: coaches_cat.php:142
+msgid "Enable to show rating on coach profile."
+msgstr ""
+
+#: coaches_cat.php:146
+msgid "Course Tags"
+msgstr ""
+
+#: coaches_cat.php:161
+msgid "Select course tag."
+msgstr ""
+
+#: coaches_cat.php:180
+msgid "Select user."
+msgstr ""
+
+#: coaches_cat.php:194 includes/Course.php:179
+msgid "Skills Title"
+msgstr ""
+
+#: coaches_cat.php:196
+msgid "Enter skills title that you want to show."
+msgstr ""
+
+#: coaches_cat.php:200
+msgid "Skills"
+msgstr ""
+
+#: coaches_cat.php:213 coaches_cat.php:225
+msgid "Add Skill Label"
+msgstr ""
+
+#: coaches_cat.php:215 coaches_cat.php:226 includes/Team.php:91
+msgid "Skill Value"
+msgstr ""
+
+#: coaches_cat.php:216 coaches_cat.php:227
+msgid "Add skill value with percentage"
+msgstr ""
+
+#: coaches_cat.php:217 coaches_cat.php:228
+msgid "Remove Skill "
+msgstr ""
+
+#: foodchow.php:159
+msgid "Layout Settings"
+msgstr ""
+
+#: foodchow.php:160
+msgid "Additional Product Settings"
+msgstr ""
+
+#: foodchow.php:183 foodchow.php:268
+msgid "HeaderStyle"
+msgstr ""
+
+#: foodchow.php:185 foodchow.php:270
+msgid "Choose the header style"
+msgstr ""
+
+#: foodchow.php:193 foodchow.php:278
+msgid "Footer Style"
+msgstr ""
+
+#: foodchow.php:195 foodchow.php:280
+msgid "Choose the Footer style"
+msgstr ""
+
+#: foodchow.php:202
+msgid "Layout"
+msgstr ""
+
+#: foodchow.php:204
+msgid ""
+"Choose the layout of the post. Note: This will not work with the blog grid "
+"style and services template grid 4 coloumns option."
+msgstr ""
+
+#: foodchow.php:210 foodchow.php:287
+msgid "Enable Banner"
+msgstr ""
+
+#: foodchow.php:214 foodchow.php:291
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: foodchow.php:218 foodchow.php:295
+msgid "Enable to show breadcrumb."
+msgstr ""
+
+#: foodchow.php:219 foodchow.php:296
+msgid "Banner Image"
+msgstr ""
+
+#: foodchow.php:222 foodchow.php:299
+msgid "Upload full width image to show at page top on inner pages."
+msgstr ""
+
+#: foodchow.php:225 foodchow.php:304
+msgid "Enable Popup"
+msgstr ""
+
+#: foodchow.php:227 foodchow.php:306
+msgid "Enable to show popup on page load."
+msgstr ""
+
+#: foodchow.php:229
+msgid "Enable Box Layout"
+msgstr ""
+
+#: foodchow.php:231
+msgid ""
+"Enable box layout, Note: at one time only one option will work either box "
+"layout or border layout."
+msgstr ""
+
+#: foodchow.php:233
+msgid "Enable Border Layout"
+msgstr ""
+
+#: foodchow.php:235
+msgid ""
+"Enable border layout, Note: at one time only one option will work either box "
+"layout or border layout."
+msgstr ""
+
+#: foodchow.php:237
+msgid "Border Color"
+msgstr ""
+
+#: foodchow.php:239
+msgid "Select border color."
+msgstr ""
+
+#: foodchow.php:241
+msgid "Color Scheme 1"
+msgstr ""
+
+#: foodchow.php:243
+msgid "Select color scheme 1."
+msgstr ""
+
+#: foodchow.php:245
+msgid "Color Scheme 2"
+msgstr ""
+
+#: foodchow.php:247
+msgid "Select color scheme 2."
+msgstr ""
+
+#: foodchow.php:310
+msgid "Guarantee"
+msgstr ""
+
+#: foodchow.php:310
+msgid ""
+"Enter product guarantee that you want to show on product listing and detail "
+"page."
+msgstr ""
+
+#: foodchow.php:336
+msgid "Enter your location that you want to show on profile page."
+msgstr ""
+
+#: foodchow.php:338 includes/Team.php:77
+msgid "Designation"
+msgstr ""
+
+#: foodchow.php:338
+msgid ""
+"Enter Your designation separated by comma e.g web developer, Online "
+"Instructor"
+msgstr ""
+
+#: foodchow.php:340
+msgid "Author Extra Info"
+msgstr ""
+
+#: foodchow.php:340
+msgid "Enter some information that you want to show on profile page."
+msgstr ""
+
+#: foodchow.php:340
+msgid "Enter Your extra information"
+msgstr ""
+
+#: foodchow.php:342
+msgid "Select social icons that you want to show on profile page."
+msgstr ""
+
+#: foodchow.php:343
+msgid "icon"
+msgstr ""
+
+#: foodchow.php:345
+msgid "Profile URL"
+msgstr ""
+
+#: foodchow.php:346 includes/Event.php:109 includes/Services.php:118
+#: includes/Team.php:84
+msgid "Background Color"
+msgstr ""
+
+#: foodchow.php:346 includes/Event.php:109 includes/Services.php:118
+#: includes/Team.php:84
+msgid "Select social icon background color."
+msgstr ""
+
+#: foodchow.php:348 includes/Event.php:110 includes/Services.php:119
+#: includes/Team.php:85
+msgid "Select social icon color."
+msgstr ""
+
+#: foodchow.php:436
+msgid "select User"
+msgstr ""
+
+#: foodchow.php:602
+msgid "Enter Valid Email Address."
+msgstr ""
+
+#: foodchow.php:606
+msgid "Your message has been send successfully."
+msgstr ""
+
+#: functions.php:134
+msgid "Registration Successful - An email is sent"
+msgstr ""
+
+#: functions.php:142
+msgid "Email "
+msgstr ""
+
+#: functions.php:144
+msgid "Password "
+msgstr ""
+
+#: functions.php:146
+msgid "User Cradentials"
+msgstr ""
+
+#: functions.php:149
+msgid "Please enter valid email address"
+msgstr ""
+
+#: includes/Blocks.php:9
+msgid "Static Block"
+msgstr ""
+
+#: includes/Cases.php:10
+msgid "Cases"
+msgstr ""
+
+#: includes/Cases.php:12
+msgid "Case Category"
+msgstr ""
+
+#: includes/Cases.php:12
+msgid "Case Categories"
+msgstr ""
+
+#: includes/Cases.php:14
+msgid "Case Details"
+msgstr ""
+
+#: includes/Course.php:10
+msgid "Course"
+msgstr ""
+
+#: includes/Course.php:13
+msgid "Courses Tag"
+msgstr ""
+
+#: includes/Course.php:13
+msgid "Courses Tags"
+msgstr ""
+
+#: includes/Course.php:15
+msgid "Coaches Category"
+msgstr ""
+
+#: includes/Course.php:15
+msgid "Coaches"
+msgstr ""
+
+#: includes/Course.php:17
+msgid "Course Details"
+msgstr ""
+
+#: includes/Course.php:95
+msgid ""
+"Show Add to Cart(Select this if you want to directly add to cart product "
+"from here)"
+msgstr ""
+
+#: includes/Course.php:96
+msgid ""
+"Show Buy Now(Select this if you want to make this downloadable product "
+"attetch it with product by making it downloadable)"
+msgstr ""
+
+#: includes/Course.php:101 includes/Formats.php:52
+msgid "Video URL"
+msgstr ""
+
+#: includes/Course.php:103
+msgid "Video Title"
+msgstr ""
+
+#: includes/Course.php:105
+msgid "Enter video title."
+msgstr ""
+
+#: includes/Course.php:107
+msgid "Product Type"
+msgstr ""
+
+#: includes/Course.php:109
+msgid "Enter Product Link."
+msgstr ""
+
+#: includes/Course.php:111
+msgid "Attetch this course with product. Enter product link"
+msgstr ""
+
+#: includes/Course.php:113
+msgid "Wishlist."
+msgstr ""
+
+#: includes/Course.php:114
+msgid "Enable to show Wishlist."
+msgstr ""
+
+#: includes/Course.php:116
+msgid "Course Regular Price"
+msgstr ""
+
+#: includes/Course.php:118
+msgid "Course Sale Price"
+msgstr ""
+
+#: includes/Course.php:120
+msgid ""
+"Enter course sale price. Note: you can enter sale price if you want to show "
+"sale price, if you not want to show leave blank this field"
+msgstr ""
+
+#: includes/Course.php:122
+msgid "Guarantee Information"
+msgstr ""
+
+#: includes/Course.php:124
+msgid "Enter guarantee information of this course."
+msgstr ""
+
+#: includes/Course.php:126
+msgid "Enable Includes"
+msgstr ""
+
+#: includes/Course.php:130
+msgid "Enter includes title."
+msgstr ""
+
+#: includes/Course.php:134 includes/Services.php:94 includes/Services.php:116
+msgid "Please select an icon that you want to show."
+msgstr ""
+
+#: includes/Course.php:136
+msgid "Enter to show included items"
+msgstr ""
+
+#: includes/Course.php:136
+msgid "Enter service feature."
+msgstr ""
+
+#: includes/Course.php:141
+msgid "Information"
+msgstr ""
+
+#: includes/Course.php:143
+msgid "Enter information about product. You can also add information with HTML"
+msgstr ""
+
+#: includes/Course.php:145 includes/Course.php:146
+msgid "Enable to show rating."
+msgstr ""
+
+#: includes/Course.php:149
+msgid "Select Static Block"
+msgstr ""
+
+#: includes/Course.php:151
+msgid ""
+"Select static block which you created for this course from static block post "
+"type."
+msgstr ""
+
+#: includes/Course.php:175
+msgid "Edit Profile/Subscribe"
+msgstr ""
+
+#: includes/Course.php:181
+msgid "Enter skills progress bars section title that you want to show."
+msgstr ""
+
+#: includes/Course.php:186 includes/Team.php:91
+#, php-format
+msgid "Enter Skill Value without % e.g 70, 80, 90"
+msgstr ""
+
+#: includes/Course.php:191
+msgid "Select Tags"
+msgstr ""
+
+#: includes/Course.php:194
+msgid "Select multiple tags which you want to show in tabs."
+msgstr ""
+
+#: includes/Course.php:199
+msgid "Select user that you want to attetch with this course."
+msgstr ""
+
+#: includes/Event.php:9
+msgid "Event"
+msgstr ""
+
+#: includes/Event.php:11
+msgid "Event Category"
+msgstr ""
+
+#: includes/Event.php:11
+msgid "Event Categories"
+msgstr ""
+
+#: includes/Event.php:13
+msgid "Event Details"
+msgstr ""
+
+#: includes/Event.php:91
+msgid "Event Start Date"
+msgstr ""
+
+#: includes/Event.php:91
+msgid "Select event start date."
+msgstr ""
+
+#: includes/Event.php:93
+msgid "Event Start Time"
+msgstr ""
+
+#: includes/Event.php:93 includes/Event.php:96
+msgid "Select event start time."
+msgstr ""
+
+#: includes/Event.php:94
+msgid "Event End Date"
+msgstr ""
+
+#: includes/Event.php:94
+msgid "Select event end date."
+msgstr ""
+
+#: includes/Event.php:96
+msgid "Event End Time"
+msgstr ""
+
+#: includes/Event.php:97
+msgid "Event Description Title"
+msgstr ""
+
+#: includes/Event.php:97
+msgid "Enter event detail description title."
+msgstr ""
+
+#: includes/Event.php:99
+msgid "Organizer Name"
+msgstr ""
+
+#: includes/Event.php:99
+msgid "Enter event organizer name."
+msgstr ""
+
+#: includes/Event.php:101 includes/Team.php:78
+msgid "Phone Number"
+msgstr ""
+
+#: includes/Event.php:101
+msgid "Enter event organizer phone number."
+msgstr ""
+
+#: includes/Event.php:103
+msgid "Website"
+msgstr ""
+
+#: includes/Event.php:103
+msgid "Enter event organizer website."
+msgstr ""
+
+#: includes/Event.php:105
+msgid "Event Location"
+msgstr ""
+
+#: includes/Event.php:105
+msgid "Enter event location."
+msgstr ""
+
+#: includes/Event.php:107 includes/Team.php:82
+msgid "Icon"
+msgstr ""
+
+#: includes/Event.php:107 includes/Team.php:82
+msgid "Select social profile icon."
+msgstr ""
+
+#: includes/Event.php:108 includes/Services.php:117 includes/Team.php:83
+msgid "Enter social profile URL."
+msgstr ""
+
+#: includes/Event.php:116
+msgid "Content"
+msgstr ""
+
+#: includes/Event.php:118
+msgid "Enter Content"
+msgstr ""
+
+#: includes/Event.php:123
+msgid ""
+"Select user that you want to attech with this event for author box info in "
+"detail page."
+msgstr ""
+
+#: includes/Formats.php:22
+msgid "Video"
+msgstr ""
+
+#: includes/Formats.php:26
+msgid "Audio"
+msgstr ""
+
+#: includes/Formats.php:30 includes/Formats.php:101 includes/Gallery.php:9
+msgid "Gallery"
+msgstr ""
+
+#: includes/Formats.php:52
+msgid "Enter youtube, vimeo or dailymotion video URL that you want to show."
+msgstr ""
+
+#: includes/Formats.php:68
+msgid "SoundCloud"
+msgstr ""
+
+#: includes/Formats.php:69 includes/Formats.php:81
+msgid "Own Audio"
+msgstr ""
+
+#: includes/Formats.php:75
+msgid "Audio Type"
+msgstr ""
+
+#: includes/Formats.php:75
+msgid "Select audio type which you want to show."
+msgstr ""
+
+#: includes/Formats.php:79
+msgid "SoundCloud ID"
+msgstr ""
+
+#: includes/Formats.php:79
+msgid "Enter soundcloud ID that you want to show."
+msgstr ""
+
+#: includes/Formats.php:81
+msgid "Enter own audio URL that you want to show."
+msgstr ""
+
+#: includes/Formats.php:101
+msgid "Upload Gallery Images."
+msgstr ""
+
+#: includes/Gallery.php:11
+msgid "Gallery Category"
+msgstr ""
+
+#: includes/Gallery.php:11
+msgid "Gallery Categories"
+msgstr ""
+
+#: includes/Gallery.php:13
+msgid "Gallery Details"
+msgstr ""
+
+#: includes/Gallery.php:73
+msgid "Subtitle"
+msgstr ""
+
+#: includes/Gallery.php:75 includes/Services.php:78
+msgid "Enter subtitle."
+msgstr ""
+
+#: includes/Services.php:11
+msgid "Services"
+msgstr ""
+
+#: includes/Services.php:81
+msgid "Image Icon"
+msgstr ""
+
+#: includes/Services.php:82
+msgid "FontAwesome Icon"
+msgstr ""
+
+#: includes/Services.php:88
+msgid "Select icon type which you want to show."
+msgstr ""
+
+#: includes/Services.php:89
+msgid "Please upload icon image in adjustable size."
+msgstr ""
+
+#: includes/Services.php:95
+msgid "Enter Button label if you want to show button."
+msgstr ""
+
+#: includes/Services.php:96
+msgid "Enter Button link if you want to show button."
+msgstr ""
+
+#: includes/Services.php:98
+msgid "Enter this service feature."
+msgstr ""
+
+#: includes/Team.php:9
+msgid "Team"
+msgstr ""
+
+#: includes/Team.php:11
+msgid "Team Category"
+msgstr ""
+
+#: includes/Team.php:14
+msgid "Team Details"
+msgstr ""
+
+#: includes/Team.php:77
+msgid "Enter team member designation."
+msgstr ""
+
+#: includes/Team.php:78
+msgid "Enter team member phone number."
+msgstr ""
+
+#: includes/Team.php:79
+msgid "Enter team member email address."
+msgstr ""
+
+#: includes/Team.php:80
+msgid "Address"
+msgstr ""
+
+#: includes/Team.php:80
+msgid "Enter team member address."
+msgstr ""
+
+#: includes/Team.php:90
+msgid "skill_title"
+msgstr ""
+
+#: includes/User.php:26
+msgid "Coach / Instructor"
+msgstr ""
+
+#: includes/User.php:38
+msgid "Student"
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:78
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:82
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:123
+msgid "Edit Menu Item"
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:139
+msgid "Navigation Label"
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:145
+msgid "Title Attribute"
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:152
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:157
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:163
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:171
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:176
+msgid ""
+"Select Megamenu Status if you want to show or hide megamenu for this menu."
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:189
+msgid ""
+"Select Megamenu Static Block. Note: you can create static block from static "
+"block post type using shortcodes."
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:200
+msgid ""
+"Select Megamenu Position if you want to show or hide megamenu for this menu."
+msgstr ""
+
+#: megamenu/edit_custom_walker.php:218
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: typerocket/app/Controllers/BookingController.php:79
+#, php-format
+msgid ""
+"Booking is done, one of the representative will contact you shortly. The "
+"tracking code is %s"
+msgstr ""
+
+#: typerocket/app/Controllers/BookingController.php:98
+msgid "You need to agree to process, please tick the checkbox"
+msgstr ""
+
+#: typerocket/app/Controllers/BookingController.php:155
+#, php-format
+msgid "Booking Acknowledgement - %s"
+msgstr ""
+
+#: typerocket/app/Controllers/BookingController.php:159
+#, php-format
+msgid "Booking Recieved - %s"
+msgstr ""
+
+#: typerocket/app/Models/Booking.php:16
+msgid "Taxi Booking"
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:183
+#, php-format
+msgid "<a href=\"%s\">View %s</a>"
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:184
+#, php-format
+msgid "<a target=\"_blank\" href=\"%s\">Preview %s</a>"
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:191
+#, php-format
+msgid "%s updated. %s"
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:192
+msgid "Custom field updated."
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:193
+msgid "Custom field deleted."
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:194
+#, php-format
+msgid "%s updated."
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:195
+#, php-format
+msgid "%s restored to revision from %s"
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:197
+#, php-format
+msgid "%s published. %s"
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:198
+#, php-format
+msgid "%s saved."
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:199
+#, php-format
+msgid "%s submitted. %s"
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:200
+#, php-format
+msgid "%s scheduled for: <strong>%1$s</strong>. %s"
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Core/Launcher.php:202
+#, php-format
+msgid "%s draft updated. "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:38
+msgid "Add New "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:39
+msgid "Add or remove "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:40
+msgid "All "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:41
+msgid "Choose from the most used "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:42
+msgid "Edit "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:45
+msgid "New "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:46
+msgid "No "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:47
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:48
+msgid "Parent "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:49
+msgid "Popular "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:50
+msgid "Search "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:51
+msgid "Separate "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:53
+msgid "Update "
+msgstr ""
+
+#: typerocket/vendor/typerocket/core/src/Register/Taxonomy.php:54
+msgid "View "
+msgstr ""
+
+#: visual-term-description-editor/php/class-editor.php:83
+#, php-format
+msgid "Word count: %s"
+msgstr ""
+
+#: visual-term-description-editor/php/class-editor.php:119
+#: visual-term-description-editor/php/class-editor.php:155
+msgid ""
+"The description is not prominent by default; however, some themes may show "
+"it."
+msgstr ""
+
+#: visual-term-description-editor/visual-term-description-editor.php:28
+msgid "Visual Term Description Editor requires PHP 5.4 or later!"
+msgstr ""
+
+#: visual-term-description-editor/visual-term-description-editor.php:29
+msgid ""
+" Please upgrade your server to the latest version of PHP – contact your web "
+"host if you are unsure about how to do this."
+msgstr ""
+
+#: wordpress-importer/parsers.php:44 wordpress-importer/parsers.php:76
+#: wordpress-importer/parsers.php:84
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: wordpress-importer/parsers.php:45
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: wordpress-importer/parsers.php:88 wordpress-importer/parsers.php:93
+#: wordpress-importer/parsers.php:285 wordpress-importer/parsers.php:481
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:133
+#: wordpress-importer/wordpress-importer.php:142
+#: wordpress-importer/wordpress-importer.php:190
+#: wordpress-importer/wordpress-importer.php:194
+#: wordpress-importer/wordpress-importer.php:203
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:134
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:195
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:211
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:236
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:262
+msgid "Assign Authors"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:263
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:265
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:275
+msgid "Import Attachments"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:278
+msgid "Download and import file attachments"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:295
+msgid "Import author:"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:307
+msgid "or create new user with login name:"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:310
+msgid "as a new user:"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:318
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:320
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:321
+msgid "- Select -"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:371
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:423
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:464
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:538
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:651
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:782
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:789
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:851
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:864
+msgid "Invalid file type"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:908
+msgid "Remote server did not respond"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:914
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:921
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:926
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:932
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:1031
+msgid "Import WordPress"
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:1038
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:1053
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:1054
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: wordpress-importer/wordpress-importer.php:1173
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""

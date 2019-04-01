@@ -1,0 +1,243 @@
+<?php
+return array(
+	'title'         => esc_html__( 'Responsive Header Setting', 'esperto' ),
+	'id'            => 'general-responsive_Setting',
+	'desc'          => '',
+	'subsection'    => true,
+	'fields'        => array(
+		array(
+			'id'    => 'responsive_topbar',
+			'type'  => 'switch',
+			'title' => esc_html__( 'Header Top Bar', 'esperto' ),
+			'desc'  => esc_html__( 'Enable to show header top bar section.', 'esperto' ),
+		),
+		array(
+			'id'       => 'responsive_topbar_settng',
+			'type'     => 'section',
+			'title'    => esc_html__( 'Top Bar Settings', 'esperto' ),
+			'desc'     => esc_html__( 'This section is used to set top bar.', 'esperto' ),
+			'required' =>  array( array( 'responsive_topbar','equals', true ),  ),
+			'indent'   => true,
+		),
+		array(
+			'id'    => 'responsive_dropdown1',
+			'type'  => 'switch',
+			'title' => esc_html__( 'Enable Food Searching Dropdown 1', 'esperto' ),
+			'desc'  => esc_html__( 'Enable to show search food dropdown 1', 'esperto' ),
+		),
+		array(
+			'id'    => 'responsive_dropdown2',
+			'type'  => 'switch',
+			'title' => esc_html__( 'Enable Food Searching Dropdown 2', 'esperto' ),
+			'desc'  => esc_html__( 'Enable to show search food dropdown 2', 'esperto' ),
+		),
+		array(
+			'id' 	 => 'responsive_topbar_setting_end',
+			'type' 	 => 'section',
+			'indent' => false,
+		),
+		array(
+			'id' 	  => 'responsive_logo',
+			'type' 	  => 'section',
+			'title'   => esc_html__( 'Logo Settings', 'esperto' ),
+			'desc' 	  => esc_html__( 'This section is used to set responsive logo settings', 'esperto' ),
+			'indent'  => true,
+		),
+		array(
+			'id' 	  => 'responsive_logo_type',
+			'type' 	  => 'button_set',
+			'title'   => esc_html__( 'Logo Style', 'esperto' ),
+			'desc' 	  => esc_html__( 'Select anyone logo style to show in header', 'esperto' ),
+			'options' => array(
+				'image' => esc_html__( 'Image Logo', 'esperto' ),
+				'text'  => esc_html__( 'Text Logo', 'esperto' ),
+			),
+			'default' => 'image',
+		),
+		array(
+			'id'        => 'responsive_image_logo',
+			'type'     	=> 'media',
+			'url'      	=> true,
+			'title'    	=> esc_html__( 'Logo', 'esperto' ),
+			'subtitle' 	=> esc_html__( 'Insert site logo image with adjustable size for the logo section', 'esperto' ),
+			'default'  	=> array(
+				'url'=> FOODCHOW_URL.'assets/images/logo.png'
+			),
+			'required'  =>  array( array('responsive_logo_type','equals','image' ),
+			),
+		),
+		array(
+			'id'       => 'responsive_logo_dimension',
+			'type'     => 'dimensions',
+			'title'    => esc_html__( 'Logo Dimentions', 'esperto' ),
+			'subtitle' => esc_html__( 'Select Logo Dimentions', 'esperto' ),
+			'units'    => array( 'em', 'px', '%' ),
+			"default"  => array( 'Width' => '', 'Height' => ''),
+			'required' =>  array(
+				array( 'responsive_logo_type','equals','image' ),
+			),
+		),
+		array(
+			'id'       => 'respnsive_logo_text',
+			'type'     => 'text',
+			'title'    => esc_html__( 'Logo Text', 'esperto' ),
+			'subtitle' => esc_html__( 'Enter Logo Text', 'esperto' ),
+			'required' =>  array(
+				array('responsive_logo_type','equals','text' ),
+			),
+		),
+		array(
+			'id'          => 'responsive_logo_typography',
+			'type'        => 'typography',
+			'title'       => esc_html__( 'Typography', 'esperto' ),
+			'google'      => true, 
+			'font-backup' => false,
+			'text-align'  =>  false,
+			'line-height' =>  false,
+			'output'      => array('h2.site-description'),
+			'units'       =>'px',
+			'subtitle'    => esc_html__('Select Styles for text logo', 'esperto'),
+			'default'     => array(
+				'color'       => '#333',
+				'font-style'  => '700',
+				'font-family' => 'Abel',
+				'google'      => true,
+				'font-size'   => '33px',
+			),
+			'required'    =>  array(
+				array( 'responsive_logo_type','equals','text' ),
+			),
+		),
+		array(
+			'id'     => 'responsive_header_logo_end',
+			'type'   => 'section',
+			'indent' => false,
+		),
+		
+        array(
+            'id'    => 'show_responsive_login',
+            'type'  => 'switch',
+            'title' => esc_html__( 'Show Top Bar Login Button', 'foodchow' ),
+            'desc'  => esc_html__( 'Enable to show login button in responsive header.', 'foodchow' ),
+        ),
+        array(
+            'id'       => 'responsive_login_label',
+            'type'     => 'text',
+            'title'    => esc_html__( 'Login Label', 'foodchow' ),
+            'desc'     => esc_html__( 'Enter login button label that you want to show.', 'foodchow' ),
+            'required' => array( 'show_responsive_login', '=', true ),
+            'default'  => esc_html__( 'Login', 'foodchow' ),
+        ),
+         array(
+            'id'    => 'show_responsive_register',
+            'type'  => 'switch',
+            'title' => esc_html__( 'Show Top Bar Registe Button', 'foodchow' ),
+            'desc'  => esc_html__( 'Enable to show register button in responsive header.', 'foodchow' ),
+        ),
+        array(
+            'id'       => 'responsive_login_label',
+            'type'     => 'text',
+            'title'    => esc_html__( 'Login Register Label', 'foodchow' ),
+            'desc'     => esc_html__( 'Enter login register button label that you want to show.', 'foodchow' ),
+            'required' => array( 'show_responsive_login', '=', true ),
+            'default'  => esc_html__( 'Login/Register', 'foodchow' ),
+        ),
+         array(
+            'id'                => 'show_topbar_sharing',
+            'type'              => 'switch',
+            'title'             => esc_html__( 'Show Share Icon', 'foodchow' ),
+            'desc'              => esc_html__( 'Enable to show top bar sharing icon', 'foodchow' ),
+
+        ),
+        array(
+            'id'       => 'responsive_social_share',
+            'type'     => 'social_media',
+            'title'    => esc_html__( 'Social Profiles', 'foodchow' ),
+            'desc'     => esc_html__( 'Click an icon to activate social profile icons in top bar.', 'foodchow' ),
+            'required' => array( 'show_topbar_sharing', '=', true ),
+        ),
+		array(
+			'id'    => 'show_responsive_typo',
+			'type'  => 'switch',
+			'title' => esc_html__( 'Show Reponsive Typography', 'esperto' ),
+			'desc'  => esc_html__( 'Enable to show responsive header typography options.', 'esperto' ),
+		),
+		array(
+			'id'       => 'responsive_typography_settng',
+			'type'     => 'section',
+			'title'    => esc_html__( 'Typography Settings', 'esperto' ),
+			'desc'     => esc_html__( 'This section is used to set responsive menu typography.', 'esperto' ),
+			'indent'   => true,
+			'required' =>  array( array( 'show_responsive_typo','equals', true ),  ),
+		),
+		array(
+			'id'          => 'responsive_logobar_bg',
+			'type'        => 'color_rgba',
+			'title'       => esc_html__( 'Top Bar Background Color', 'esperto' ),
+
+			'default' => array(
+				'color' => '#2088c7',
+				'alpha' => 1,
+			),
+		),
+		array(
+			'id'          => 'responsive_menubar_bg',
+			'type'        => 'color_rgba',
+			'title'       => esc_html__( 'Menu Bar Background Color', 'esperto' ),
+			'default' => array(
+				'color' => '#011929',
+				'alpha' => 1,
+			),
+		),
+		array(
+			'id'          => 'responsive_menu_bg',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Menu Popup Background Color', 'esperto' ),
+			'default'     => '#011929',
+			'transparent' => false,
+		),
+
+		array(
+			'id'                 => 'responsive_menu_typography',
+			'type'               => 'typography', 
+			'title'              => esc_html__('Responsive Menu Typography', 'esperto'),
+			'google'             => true, 
+			'font-backup'        => false,
+			'text-align'         =>  false,
+			'line-height'        =>  false,
+			'output'             => array('.responsive-menu ul li a'),
+			'units'             =>'px',
+			'subtitle'          => esc_html__('Select Styles ', 'esperto'),
+			'default'           => array(
+										'color'       => '', 
+										'font-style'  => '', 
+										'font-family' => '', 
+										'google'      => true,
+										'font-size'   => '', 
+									),
+			
+		),
+		array(
+			'id'          => 'responsive_menu_hover_bg',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Menu Background Color On Hover', 'esperto' ),
+			'default'     => '#011929',
+			'transparent' => false,
+		),
+		array(
+			'id'          => 'responsive_menu_hover_color',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Menu Color On Hover', 'esperto' ),
+			'output'     =>  array( '.responsive-menu > ul > li.menu-item-has-children.active > a' ),
+			'default'     => '#2088c7',
+			'transparent' => false,
+		),
+		array(
+			'id'     => 'responsive_header_logo_end',
+			'type'   => 'section',
+			'required' =>  array( array( 'show_responsive_typo','equals', true ),  ),
+			'indent' => false,
+		),
+
+	),
+);

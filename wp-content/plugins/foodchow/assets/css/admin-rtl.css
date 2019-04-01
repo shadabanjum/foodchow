@@ -1,0 +1,37 @@
+#wpcontent > div{
+    overflow-x:hidden;
+}
+.icons-selector .selector-search i{
+    right: auto;
+    left: 10px;
+}
+.typerocket-container .control-label{float: right;}
+
+.typerocket-container .control-label {
+    float: left;
+    text-align: right !important;
+}
+.typerocket-container .control {
+    width: 100%;
+}
+#tab-panel-icons ol li{
+    unicode-bidi: bidi-override;
+}
+.rs-dash-title-button{
+    right: auto !important;
+    left: 20px;
+}
+.rs-dash-bottom-wrapper{
+    text-align: left;
+}
+
+.rs-dash-widget-inner > i {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0 !important;
+}
+.rs-dash-content-with-icon{
+    margin-right: 20px;
+}
+.requirement-link{right: 27px !important;}
+.rs-dash-addons .rs-dash-version-info{float: right !important}

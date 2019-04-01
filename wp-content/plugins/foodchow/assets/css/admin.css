@@ -1,0 +1,73 @@
+.data-full.data-inline > li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.typerocket-container .image-select input[type="radio"] {
+	display: none;
+}
+.typerocket-container .radio-inline li {
+	display: inline-block;
+	padding: 10px;
+}
+.typerocket-container .control-label,
+.typerocket-container .control {
+	display: inline-block;
+}
+
+.typerocket-container .control-label {
+	min-width: 30%;
+	float: left;
+}
+.typerocket-container .control {
+	width: 55%;
+}
+.typerocket-container .image-select input[type="radio"] ~ span img {
+	max-width: 100%;
+	vertical-align: bottom;
+	background-color: #fff;
+	border: 2px solid #eee;
+	opacity: 0.75;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	-webkit-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.typerocket-container .image-select input[type="radio"]:checked ~ span img {
+	border: 2px solid #222;
+	opacity: 1;
+}
+
+.inside .typerocket-elements-fields-repeater .control-label, .inside .typerocket-elements-fields-repeater .control {
+	display: block;
+	width: 97%;
+}
+
+.redux-slides-accordion-group .ui-accordion-content li > textarea {
+    display: none;
+}
+.redux-slides-accordion-group .ui-accordion-content .redux_slides_add_remove {
+    display: none;
+}
+
+.redux-slides-accordion-group .upload_button_div {
+    display: none;
+}
+
+.wpb_vc_param_value.wpb-input.wpb-select.add_menu_menu.dropdown.Main_menu option {
+    text-transform: capitalize;
+}
+
+.typerocket-elements-fields-date .date-picker.hasDatepicker {
+    width: 50%;
+}
+.app-fields-timepicker .tr-timepicker.ui-timepicker-input {
+    width: 50%;
+}
+.redux-notice.is-dismissible {
+    display: none;
+}
+
+#wp_foodchow_options-languages_opt4 .upload_button_div {
+    display: block;
+}

@@ -1,0 +1,52 @@
+
+.typerocket-container .image-select input[type="radio"] {
+	display: none;
+}
+.typerocket-container .radio-inline li {
+	display: inline-block;
+	padding: 10px;
+}
+.typerocket-container .control-label,
+.typerocket-container .control {
+	display: inline-block;
+}
+
+.typerocket-container .control-label {
+	min-width: 30%;
+	float: left;
+}
+.typerocket-container .control {
+	min-width: 55%;
+}
+.typerocket-container .image-select input[type="radio"] ~ span img {
+	max-width: 100%;
+	vertical-align: bottom;
+	background-color: #fff;
+	border: 2px solid #eee;
+	opacity: 0.75;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	-webkit-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.typerocket-container .image-select input[type="radio"]:checked ~ span img {
+	border: 2px solid #222;
+	opacity: 1;
+}
+
+.inside .typerocket-elements-fields-repeater .control-label, .inside .typerocket-elements-fields-repeater .control {
+	display: block;
+	width: 97%;
+}
+
+.redux-slides-accordion-group .ui-accordion-content li > textarea {
+    display: none;
+}
+.redux-slides-accordion-group .ui-accordion-content .redux_slides_add_remove {
+    display: none;
+}
+
+.redux-slides-accordion-group .upload_button_div {
+    display: none;
+}
