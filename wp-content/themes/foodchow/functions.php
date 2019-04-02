@@ -534,26 +534,7 @@ function foodchow_blog_the_pagination($args = array(), $echo = 1) {
         return $pagination;
     }
 }
-function foodchow_add_styles( $selector = '', $properties = array(), $rules = array() ) {
 
-	$style_selector = '';
-	$counter=0;
-	$style_selector .= $selector . '{';
-	if(!empty($properties)){
-		foreach ($properties as $property ) {
-			
-			$style_selector .= $property . ':' .foodchow_set($rules,$counter)  . ';';
-			
-			$counter++;
-		}
-	}
-
-	$style_selector .= '}';
-
-	wp_enqueue_style( 'theme-style', $style_selector );
-
-
-}
 
 function wpbeginner_numeric_posts_nav() {
  
