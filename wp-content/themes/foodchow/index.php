@@ -7,6 +7,7 @@
  * @version 1.0
  */
 
+/* Testing Commnet Added */
 get_header();
 
 $data = \Foodchow\Includes\Classes\Common::instance()->data( 'blog' )->get();
@@ -70,4 +71,4 @@ do_action( 'foodchow_banner', $data );  ?>
 
 <?php endif; ?>
 
-<?php get_footer(); ?>
+<?php //get_footer(); ?>
